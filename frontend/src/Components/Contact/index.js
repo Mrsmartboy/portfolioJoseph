@@ -32,7 +32,7 @@ const ContactForm = () => {
 
     try {
       // Make POST request using Axios
-      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      const response = await axios.post('https://portfolio-jbz1.onrender.com/api/contact', formData);
 
       // Handle success
       if (response.status === 200) {
